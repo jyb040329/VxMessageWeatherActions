@@ -11,13 +11,13 @@ public class WechatConfig {
      * 你的微信的APPID
      * appId
      */
-    public static final String VxAppId = "your VxAppId";
+    public static final String VxAppId = "wx31d147ebe056c7dc";
 
     /**
      * 你的微信的密钥
      * appSecret
      */
-    public static final String VxAppSecret = "your VxAppSecret";
+    public static final String VxAppSecret = "4eccaea00ac0b40cd69c2707c6ea6c95";
 
     public static final List<User> userList = new ArrayList<>();
 
@@ -38,27 +38,27 @@ public class WechatConfig {
      */
     static {
         userList.add(getUser(
-                "这个人扫码后的微信号", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "微信消息模板ID", //要给这个人发送的模板ID
-                "pt", //咋称呼这个人
-                "江苏省南京市玄武区", //这个人的详细地址
-                "南京", //这个人在的城市
-                new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
-                new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false,"周年快乐！！！")
+                "oPmR36tHElgM70ingzSaDaX9PWU8", //扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "YgpbPOlCvj2iPCgIddGMbpycTcACIZkD7nGORFKC97Q", //要给这个人发送的模板ID
+                "赵欣姐姐", //咋称呼这个人
+                "河南省郑州市金水区", //这个人的详细地址
+                "郑州", //这个人在的城市
+                new BirthDay(2002,7,11,true,false,"pt生日快乐！！"),
+                new BirthDay(2002,7,11,false,false,"生日快乐哦~~"),
+                new BirthDay(2024,9,21,true,true),
+                new BirthDay(2024,9,21,true,false,"周年快乐！！！")
         ));
 
         userList.add(getUser(
-                "这个人扫码后的微信号",
-                "微信消息模板ID",
-                "这个人的称呼",
-                "江苏省南京市玄武区",
-                "南京",
-                new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
-                new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false,"周年快乐！！！")
+                "oPmR36tHElgM70ingzSaDaX9PWU8",
+                "YgpbPOlCvj2iPCgIddGMbpycTcACIZkD7nGORFKC97Q",
+                "赵欣姐姐",
+                "河南省郑州市金水区",
+                "郑州",
+                new BirthDay(2002,7,11,false,false,"生日快乐哦~~"),
+                new BirthDay(2002,7,11,true,false,"pt生日快乐！！"),
+                new BirthDay(2024,9,21,true,true),
+                new BirthDay(2024,9,21,true,false,"周年快乐！！！")
         ));
 
 
